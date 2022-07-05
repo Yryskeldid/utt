@@ -1,0 +1,29 @@
+* {
+    scroll-behavior: smooth;
+  }  
+body{
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: black;
+    background-color: #fff;
+    padding-top: 10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none !important;
+    color: #fff;
+}
+li{
+    list-style: none;
+}

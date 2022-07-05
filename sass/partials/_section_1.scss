@@ -1,0 +1,195 @@
+.order{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.one_order{
+    font-size: 36px;
+    font-weight: 600
+}
+.order_button{
+    @include button;
+}
+.contents{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include big{
+        display: block;
+    }
+}
+.content{
+    width: 65%;
+    @include big{
+        width: 100%;
+    }
+    @include small2{
+        .info_order{
+            width: 90%;
+        }
+        .info_text{
+            color: #000;
+        }
+    }
+}
+.content_sect_1{
+    width: 100%;
+    background: #EAF1EB url(../img/grass.png) no-repeat 100% 100%;
+    border-radius: 10px;
+    padding: 5px 0 20px;
+}
+.watch_content{
+    font-size: 12px;
+    align-items: center;
+}
+.watch{
+    font-size: 14px;
+}
+.grass, .text_info{
+    margin-left: 20px;
+}
+.info_order{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 35px;
+    width: 55%;
+}
+.info_text{
+    width: 60%;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(111, 111, 111);
+}
+.button_info{
+    @include button;
+    border: none;
+    background: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+}
+.info_stawberry{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    @include small{
+        display: block;
+        .info_stawberry_1{
+            width: 100%;
+            margin-top: 15px;
+        }
+        .stawberry_button{
+            margin-top: 16%;
+        }
+    }
+}
+.info_stawberry_1{
+    height: 210px;
+    border-radius: 10px;
+    width: 45%;
+    background: #EAF1EB url(../img/strawberry.png) no-repeat 100% 100%;
+    padding: 20px 0 20px 0px;
+    @include small2{
+        height: 230px;
+    }
+}
+.watch_contents{
+    margin-left: 20px;
+    font-size: 12px;
+    align-items: center;
+}
+.texts_stawberry{
+    margin-left: 20px;
+}
+.stawberry_order{
+    width: 90%;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto 10px 0;
+}
+.stawberry_button{
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px 30px;
+    border: none;
+    color: $color1;
+}
+.content_2{
+    width: 30%;
+    background: #EAF1EB url(../img/girl.png) no-repeat 100% 100%;
+    border-radius: 10px;
+    @include big{
+        margin-top: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: 350px;
+        background: #EAF1EB url(../img/girl2.png) no-repeat 100% 100%;
+        .info_text_2{
+            width: 70%;
+        }
+        // margin: 0;
+    }
+    @include medium{
+        .stawberry_order_remek{
+            margin-left: 0;
+            width: 50%;
+        }
+        .info_text_2{
+            width: 50%;
+        }
+    }
+    @include small2{
+        height: 385px
+    }
+    @include ultra-small_2{
+        background: #EAF1EB url(../img/girl.png) no-repeat 100% 100%;
+        height: 410px
+    }
+    @include mega-small{
+        height: 445px
+    }
+    @include mega-small2{
+        height: 470px;
+        .stawberry_remek{
+            width: 97%;
+        }
+        .info_text_2{
+            color: #000;
+        }
+    }
+    @include mega-small3{
+        height: 510px
+    }
+    @include mega-small4{
+        height: 540px;
+    }
+}
+.button_infos{
+    @include button;
+    border: none;
+    background: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-top: 0;
+}
+.stawberry_remek{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto 10px auto;
+}
+.content_2_info{
+    margin: 20px 20px 0 20px;
+}
+.info_text_2{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(111, 111, 111);
+}
